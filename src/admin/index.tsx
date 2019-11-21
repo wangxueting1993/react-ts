@@ -8,14 +8,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class App extends Component {
+class Admin extends Component {
   render() {
     return (
       <div className="App">
-    index
+    admin
       </div>
     );
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Admin />, document.getElementById('root'));
